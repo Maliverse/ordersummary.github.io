@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <title>Frontend Mentor | Order summary card</title>
 
   
@@ -15,39 +16,39 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
    -->
+    
 </head>
 
 <body>
-  <section>
-    
-    <div class="card">
-      
-      <div>
-        <img class="header-img" src="img/illustration-hero.svg" alt="illustration-hero">
-      </div>
-       
-      
-      <h1>Order Summary</h1>
-      <p>
-        You can now listen to millions of songs, <br>
-        audiobooks, and podcasts on any 
-        device <br>
-        anywhere you like!
-      </p>  
+  <section class="home-hero">
+  
+<div class="container">
+  <div class="card">
+    <img class="hero" src="img/illustration-hero.svg" alt="illustration-hero">
+    <h1>Order Summary</h1>
+    <p>
+      You can now listen to millions of songs, <br>
+      audiobooks, and podcasts on any 
+      device <br>
+      anywhere you like!
+    </p>  
+    <div class="payment-box">
       <div class="annual-plan">
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
-        <p>Change</p>
-      </div>
-      
-      
-      <a class="proceed-btn" href="#">Proceed to Payment</a> <br> <br>
-      <a class="cancel-btn" href="#"> Cancel Order</a>
-
-
+        <img class="music-icon" src="img/icon-music.svg" alt="music icon">
+          <h3>Annual Plan <br> <span>$59.99/year</span></h3>
+          
+        </div>
+        <div class="change">
+          <a class="change-btn" href="$">Change</a> 
+        </div>
     </div>
-    
-  </section>
-    
+   
+    <a class="proceed-btn" href="#">Proceed to Payment</a> <br> <br>
+    <a class="cancel-btn" href="#"> Cancel Order</a>
+
+  </div>
+
+</div>
+
 </body>
 </html>
