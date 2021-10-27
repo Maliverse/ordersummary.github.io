@@ -1,0 +1,30 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.card{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.header-img{
+    display: inline-block;
+   margin-top: 200px;
+   border-radius: 11px;
+   margin-bottom: 0%;
+}
+
+
+.proceed-btn {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 100%;
+    padding: 1em;
+    background: #766CF1;
+    border-radius: 11px;
+    
+    
+}
