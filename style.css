@@ -57,7 +57,7 @@ body{
     display: inline-block;
     min-width: 85%;
     padding: 1em;
-    background: #ffffff;
+    /*background: #ffffff; */
     border-radius: 11px;
     margin-bottom: 2em;
 }
