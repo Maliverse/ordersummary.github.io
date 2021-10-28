@@ -76,6 +76,7 @@ a.change-btn:active{
 }
 a.change-btn:hover{
     color: #766CF1;
+    text-decoration: underline;
 }
 .music-icon{
     border: 2px solid #F8F9FE;
